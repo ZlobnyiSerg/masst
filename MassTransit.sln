@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MassTransit", "MassTransit\MassTransit.csproj", "{93DCB1B8-FD31-4A44-941D-0EA7FDF69429}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT.Messages", "MT.Messages\MT.Messages.csproj", "{99479C8C-DFE0-4945-9722-25C6E9F93B16}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MT.Cli", "MT.Cli\MT.Cli.csproj", "{EAEC33B3-BF91-4B6F-B20F-5E34AFF57EC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93DCB1B8-FD31-4A44-941D-0EA7FDF69429}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93DCB1B8-FD31-4A44-941D-0EA7FDF69429}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93DCB1B8-FD31-4A44-941D-0EA7FDF69429}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93DCB1B8-FD31-4A44-941D-0EA7FDF69429}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99479C8C-DFE0-4945-9722-25C6E9F93B16}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99479C8C-DFE0-4945-9722-25C6E9F93B16}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99479C8C-DFE0-4945-9722-25C6E9F93B16}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99479C8C-DFE0-4945-9722-25C6E9F93B16}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAEC33B3-BF91-4B6F-B20F-5E34AFF57EC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAEC33B3-BF91-4B6F-B20F-5E34AFF57EC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAEC33B3-BF91-4B6F-B20F-5E34AFF57EC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAEC33B3-BF91-4B6F-B20F-5E34AFF57EC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
